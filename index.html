@@ -10,6 +10,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
+  <script>
+(function(s,i,r,v) {
+    v = i.createElement(r); v.async=1;
+    v.src = ('file:'==location.protocol?'http:':'') + '//scripts.sirv.com/sirv.js';
+    i.getElementsByTagName(r)[0].parentNode.appendChild(v);
+})(window, document, 'script');
+</script>
   body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
@@ -268,20 +275,29 @@
   </div>
 </div>
 
+<!-- Container (rotation images) -->
+
+<div class="Sirv" data-src="//mblencoo.sirv.com/New%20folder/New%20folder.spin"></div>
+    	
+<div class="Sirv" data-src="//mblencoo.sirv.com/final/final.spin"></div>
+  	
+    	
+    	
+    	
 <!-- Container (Buy Section) -->
 <div id="tour" class="bg-1">
   <div class="container">
-    <h3 class="text-center">Get Work Done</h3>
+   
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div  <h3 class="text-center">Get Work Done</h3>
     <p class="text-center">Get Wonderfull vfx your Work done now.<br> Order now!</p>
     <ul class="list-group">
       <li class="list-group-item"># <span class="label label-danger">Open sell!</span></li>
       <li class="list-group-item">$ <span class="label label-danger">Open sell!</span></li>
       <li class="list-group-item">% <span class="badge">@</span></li>
     </ul>
-    
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
+    class="thumbnail">
           <img src="1.jpg" alt="Paris" width="400" height="300">
           <p><strong>img</strong></p>
           <p>1 November 2016</p>
